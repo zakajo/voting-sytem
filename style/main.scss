@@ -1,5 +1,5 @@
 :root{
-    --main:rgb(67, 67, 99);
+    --main:rgb(155, 155, 223);
 }
 
 
@@ -16,20 +16,14 @@ a{
 *                       NAVBAR STYLE                                          *
 *                                                                 *
 ******************************************************************/ 
-.nav-container{
-    padding: 0 5%;
+.appbar-container{
+    padding: 1rem 5%;
     background-color: var(--main);
-    ul{
-        display: flex;
-        list-style: none;
-        li{
-            padding:  1.5rem;
-            
-        }
-        a{
-            color: #fff;
-            font-weight: 800;
-        }
+}
+.appbar-container{
+    a{
+        color: #fff;
+        font-weight: 800;
     }
 }
 
