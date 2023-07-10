@@ -1,0 +1,47 @@
+:root {
+  --main:rgb(67, 67, 99);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/******************************************************************
+*                                                                 *
+*                       NAVBAR STYLE                                          *
+*                                                                 *
+******************************************************************/
+.nav-container {
+  padding: 0 5%;
+  background-color: var(--main);
+}
+.nav-container ul {
+  display: flex;
+  list-style: none;
+}
+.nav-container ul li {
+  padding: 1.5rem;
+}
+.nav-container ul a {
+  color: #fff;
+  font-weight: 800;
+}
+
+.header-container {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(67, 67, 99, 0.7), rgba(67, 67, 99, 0.7)), url("../assets/images/people-2557396_1280.jpg");
+  background-size: 100% 100%;
+}
+.header-container h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 900;
+}/*# sourceMappingURL=main.css.map */
