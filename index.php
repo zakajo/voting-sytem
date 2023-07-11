@@ -7,9 +7,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./style/main.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="./assets/fontawesome-free-6.4.0-web/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="./styles/main.css">
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -47,11 +47,14 @@
           </div>
         </li>
       </ul>
-      <button class="btn btn-success my-2 my-sm-0" type="submit">Login | Sign up</button>
+      <a class="btn btn-success my-2 my-sm-0" href='./pages/login.php'>Login | Sign up</a>
     </div>
   </nav>
   <header class='header-container'>
-    <h1 class=''>We Make Online Election Easy & Affordable</h1>
+    <div class='header-content text-center'>
+      <h1 class=''>We Make Online Election Easy & Affordable</h1>
+      <p>Here is my thought I was thinking of making Amal to be a matching tool that leverages artificial intelligence to connect refugees in real-time and in a customized way to the opportunities that are the most suitable to his/her profile and that would lead to lifelong employment</p>
+    </div>
   </header>
 
   <script src="./assets/js/slim.js"></script>

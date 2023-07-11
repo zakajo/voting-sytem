@@ -1,0 +1,52 @@
+:root {
+    --main:rgb(51, 51, 88);
+}
+  
+/*************************************************************
+    *********** THE START OF GLOBAL STYLE ***********
+*************************************************************/
+.main {
+    height: calc(100vh - 4rem) !important;
+    max-height: calc(100vh - 4rem) !important;
+}
+
+/*************************************************************
+    *********** THE START OF NAVBAR STYLE ***********
+*************************************************************/
+.navbar {
+    padding: 0 3% !important;
+    height: 4rem !important;
+    background-color: var(--main) !important;
+}
+
+
+/*************************************************************
+    *********** THE START OF SIDEBAR STYLE ***********
+*************************************************************/
+.sidebar-wrapper .my-list-item:hover {
+    background-color: lightblue;
+}
+
+
+/*************************************************************
+    *********** THE START OF HEADER STYLE ***********
+*************************************************************/
+.header-container {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(22, 22, 139, 0.6), rgba(67, 67, 99, 0.6)), url("../assets/images/money-gcbbbadce1_1280.jpg");
+    background-size: cover;
+    color: #fff;
+}
+.header-container .header-content p {
+    width: 75%;
+    margin: auto 0;
+}
+.header-container h1 {
+    color: #fff;
+    font-size: 2.6rem;
+    font-weight: 900;
+}
+  

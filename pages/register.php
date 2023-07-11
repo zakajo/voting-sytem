@@ -1,21 +1,41 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <title>Sign up </title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="../style/main.css">
-  <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="../assets/fontawesome-free-6.4.0-web/css/all.min.css">
-</head>
-<body>
-<body>
+<?php include '../components/header.php' ?>
+  <div class='login-container signup d-flex align-items-center justify-content-center'>
+    <div class='form-content'>
+      <div class='text-center mb-4'>
+        <h2 class='text-5'>Register</h2>
+      </div>
+      <form class="" action="../process/register.php" method='post' enctype="multipart/form-data">
+        <div class='form-group'>
+          <input class="form-control form-control-lg" name="name" type="text" placeholder="Name">
+        </div>
+        <div class='form-group'>
+          <input class="form-control form-control-lg" name="age" type="number" placeholder="Age">
+        </div>
+        <div class='form-group'>
+          <input class="form-control form-control-lg" name="nationality_no" type="text" placeholder="National ID No">
+        </div>
+        <div class='form-group'>
+          <input class="form-control form-control-lg" name="std" type="text" placeholder="Standred">
+        </div>
+        <div class='form-group'>
+          <input class="form-control form-control-lg" name="image" type="file" placeholder="Emage">
+        </div>
+        <div class='form-group'>
+          <input class="form-control form-control-lg" name="password" type="password" placeholder="Create Password">
+        </div>
+        <div class='form-group'>
+          <input class="form-control form-control-lg" name="cpassword" type="password" placeholder="Comfirm Password">
+        </div>
+        <button class='btn btn-success my-sm-0'>
+          Login
+        </button>
+      </form>
+      <div class='text-center'>
+        I already have account <a href="./login.php">Sign up</a>
+      </div>
+    </div>
+  </div>
 
-  <?php include '../components/navbar.php' ?>
-  Sign up
 
   <script src="../assets/js/slim.js"></script>
   <script src="../assets/js/bootstrap.js" ></script>
